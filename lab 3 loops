@@ -1,0 +1,138 @@
+'''
+##  LAB-3 = FOR LOOP
+
+
+#1.Write a program to print the first N natural numbers. 
+i=int(input("Enter any value:"))
+for a in range(1,i+1):
+    print(a)
+
+#2.Write a program to print the first N even natural numbers. 
+i=int(input("Enter any value:"))
+for a in range(2,i+1,2):
+    print(a)
+
+#3.Write a program to print the first N odd natural numbers. 
+
+i=int(input("Enter any value:"))
+for a in range(1,i,2):
+    print(a)
+
+#4. Write a program to print first N multiples of 3.
+i=int(input("Enter any value:"))
+for a in range(1,i+1):
+    b=a*3
+    print(b)
+
+#5.Write a program to print first N multiples of 5.
+i=int(input("Value:"))
+for a in range(1,i+1):
+    b=a*5
+    print(b)
+
+#6.Write a program to print all the multiples of 2 till N.
+i=int(input("Enter any value:"))
+for a in range(1,i+1):
+    if a%2==0:
+        print(a)
+    
+
+
+#7.  Write a program to print all the numbers which are multiples of either 2 or 3 till N. 
+i=int(input("Enter any value:"))
+for a in range(1,i+1):
+    if a%2==0:
+        print(a)
+    elif a%3==0:
+        print(a)
+    else:
+        print(f"{a} is not multiples of 2 or 3")
+
+#8.Write a program to print all the numbers which are multiples of either 2, 5 or 7 till N. 
+
+i=int(input("Enter any value:"))
+for a in range(1,i+1):
+    if a%2==0 or a%5==0:
+        print(a)
+    elif a%7==0:
+        print(a)
+    else:
+        print(f"{a}is not multiples of 2 or 5 or 7")
+
+
+##  WHILE LOOP TASK
+
+#1. Find the sum of all digits in a positive integer.
+
+n=int(input("Enter any value:"))
+sum=0
+while n>0:
+    a=n%10
+    sum=sum+a
+    n//=10
+print("sum of digits:",sum)
+
+#2.Count the number of digits in a positive integer.
+n=int(input("Enter any value:"))
+b=0
+while n>0:
+    n=n//10
+    b+=1
+print(b)
+
+#3.Write a program to find factors of a given number.
+ '''   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
